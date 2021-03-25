@@ -139,7 +139,7 @@ main > section:nth-child(2) > section:last-child{
     background-image:   url("../images/ThreeFootball.jpg");
 }
 
-main > section:nth-child(2) > section > a{
+main > section:nth-child(2) > section > span{
     display:            block;
     margin-top:         209px;
     background-color: #FFFFFF;
@@ -151,6 +151,9 @@ main > section:nth-child(2) > section > a{
     font-size:          14px;
     line-height:        40px;
     text-align:         center;
+}
+
+main > section:nth-child(2) > section > span > a{
     color:            #ED4C5C;
 }
 
