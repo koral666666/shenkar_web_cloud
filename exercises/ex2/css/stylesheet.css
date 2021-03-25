@@ -25,15 +25,16 @@ header > a{
     background-image:   url("../images/icon.png");
     background-repeat:  no-repeat;
     background-size:    contain;
-    background-size:    24.65px;
-    background-position:60.8px 51.45px;
+    background-size:    17.4px;
+    background-position:51.45px 59px;
     display:            flex;
     align-items:        center;
 }
 
 header > a > span{
-    padding-left:       96.9px;
+    padding-left:       86px;
     padding-top:        59px;
+    font-weight:        bold;
     text-transform:     uppercase;
     display:            flex;
     align-items:        center;
@@ -84,7 +85,7 @@ main > section:first-child > button{
 
     color:            #ED4C5C;
     font-size:          14px;
-    font-weight:        bold;
+    font-weight:        600;
 }
 
 main > section:nth-child(2){
@@ -96,6 +97,7 @@ main > section:nth-child(2) > h2{
     padding-left:       50px;
     padding-top:        56px;
     font-size:          36px;
+    font-weight:        600;
 }
 
 main > section:nth-child(2) > p{
@@ -161,6 +163,7 @@ main > section:last-child > h2{
     padding-left:       50px;
     padding-top:        57px;
     font-size:          36px;
+    font-weight:        600;
     line-height:        43px;
 }
 
