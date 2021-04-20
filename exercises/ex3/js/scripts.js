@@ -36,7 +36,7 @@ function CreatNewSection(counter, star, boxesColor){
     var flagClicked = 0;
         
     if(star == '1'){
-        newSection.style.backgroundImage    = "url(../imeges/code_icon.png)";
+        newSection.style.backgroundImage    = "url(../images/code_icon.png)";
         newSection.style.backgroundPosition = "270px 2px";
         newSection.style.backgroundSize     = "47px";
     }
@@ -77,7 +77,7 @@ function CreatNewSection(counter, star, boxesColor){
             if(flagClicked == '0'){
                 flagClicked = 1;
                 newSection.style.backgroundColor    = "#FFFFFF";       
-                newSection.style.backgroundImage    = "url(../imeges/shenkar_icon.png)";
+                newSection.style.backgroundImage    = "url(../images/shenkar_icon.png)";
                 newSection.style.backgroundPosition = "center";
                 newSection.style.backgroundSize     = "200px";
     
@@ -89,7 +89,7 @@ function CreatNewSection(counter, star, boxesColor){
                 plus.style.visibility               ="visible";
             
                 if(star == '1'){
-                    newSection.style.backgroundImage    = "url(../imeges/code_icon.png)";
+                    newSection.style.backgroundImage    = "url(../images/code_icon.png)";
                     newSection.style.backgroundPosition = "270px 2px";
                     newSection.style.backgroundSize     = "47px";
                 }
