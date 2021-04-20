@@ -103,7 +103,7 @@ nav ul > li > a:hover:not(.current_page){
     display:            flex;
     height:             696px;
     width:              756px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 #Layout_1 .boxes > section{
@@ -156,7 +156,7 @@ nav ul > li > a:hover:not(.current_page){
 #Layout_2 nav{
     display:            flex;
     background-color: #212222;
-    height:             758px;
+    height:             1758px;
     width:              146px;
 }
 
@@ -186,7 +186,7 @@ nav ul > li > a:hover:not(.current_page){
 
 #Layout_2 #wrapper main{
     display:            flex;
-    height:             758px;
+    height:             1758px;
     width:              598px;
     background-color: #ffffff;
 }
@@ -225,15 +225,14 @@ nav ul > li > a:hover:not(.current_page){
 
 #Layout_2 #wrapper aside{
     display:            flex;
-    height:             758px;
+    height:             1758px;
     width:              256px;
     background-color: #EEEDEE;
 }
 
 #Layout_2 .boxes{
     margin:             0 auto;
-    margin-bottom:      12px;
-    align-self:         flex-end;
+    margin-top:         522px;
 }
 
 #Layout_2 .boxes > section{
@@ -260,4 +259,74 @@ nav ul > li > a:hover:not(.current_page){
 
 /* _______________________________________________________________________________________Layout_3 */
 
+#Layout_3 header{
+    height:             192px;
+}
 
+#Layout_3 > #wrapper > nav{
+    display:            flex;
+    margin-top:         0px;
+    background-color: #212222;
+    width:              100%;
+    height:             61px;
+}
+
+#Layout_3 > #wrapper nav ul{
+    display:            flex;
+    margin:             0 auto;
+    justify-content:    center;
+    list-style-type:    none;
+    width:              100%;
+    max-width:          1000px;
+}
+
+#Layout_3 > #wrapper nav ul > li{
+    display:            block;
+    max-width:          235px;
+    width:              100%;
+    height:             40px;
+}
+
+#Layout_3 > #wrapper nav ul > li > a{
+    display:            block;
+    margin-top:         10.5px;
+    margin-bottom:      10.5px;
+    height:             40px;
+    max-width:          235px;
+    width:              100%;
+    line-height:        40px;
+    text-align:         center;
+    font-size:          14px;
+    color:            #FFFFFF;
+    
+}
+
+#Layout_3 #wrapper {
+    display:            flex;
+    flex-wrap:          wrap;
+    flex-direction:     column;
+    align-items:        center;
+    margin:             0 auto;
+    min-width:          428px;
+}
+
+#Layout_3 #wrapper > main{
+    display:            flex;
+    flex-wrap:          wrap;
+    justify-content:    center;
+    background-color: #FFFFFF;
+    max-width:          1000px;
+}
+
+#Layout_3 #wrapper > main > section{
+    height:             332px;
+    width:              333px;
+    background-repeat:  no-repeat;
+}
+
+#Layout_3 #wrapper > footer{
+    margin-bottom:      1px;
+    height:             50px;
+    width:              100%;
+    background-color: #D6D6D6; 
+}
