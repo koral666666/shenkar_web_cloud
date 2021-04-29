@@ -1,0 +1,72 @@
+#form{
+    background-image: url("../images/bg.svg");
+}
+
+#form > section{
+    display:            flex;
+    flex-direction:     column;
+    margin:             0 auto;
+    margin-top:         50px;
+    margin-bottom:      50px;
+    height:             1050px;
+    width:              1000px;
+    background-color:   rgb(241, 224, 224);
+}
+
+
+#form > section > h1{
+    margin:             0 auto;
+    padding-top:        50px;
+    padding-bottom:     50px;
+    width:              900px;
+    font-family:        'Righteous', cursive;
+}
+
+
+#form form{
+    margin:             0 auto;
+    width:              900px;
+}
+
+#form input, #form textarea, #form select{
+    margin-top:         10px;
+}
+
+#form #web{
+    width:              750px;
+}
+
+#form #pass, #form .emergency{
+    width:              287px;
+}
+
+#form textarea{
+    width:              468px;
+}
+
+#form .form-check-label{
+    padding-left:       30px;
+    line-height:        2;
+}
+
+#form .form-check-input{
+    margin-left:        5px;
+}
+
+#form .bold{
+    font-weight:        500;
+}
+
+#form ._width{
+    padding-left:       0;
+    padding-bottom:     10px;
+    width:              800px;
+}
+
+#form .sub{
+    margin-bottom:      10px;
+}
+
+#form .is-invalid{
+    color:              #DC3545;
+}

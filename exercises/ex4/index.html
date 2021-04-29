@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="css/form.css">
+        <script src="js/form.js"></script>
+
+        <title>Koral Gov-Ari</title>
+    </head>
+
+    <body id="form">
+        <section>
+            <h1>Freaky Friday</h1>
+            <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="GET" class="needs-validation" novalidate>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">Enter your freaky person switch full name : 
+                                <input type="text" name="fullName" pattern="([^\s]+\s)+[^\s]+" class="form-control" id="fullName" required>
+                                <div class="invalid-feedback">The name must include at least one space</div>
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">Password :
+                                <input type="password" name="pass" pattern="(?:Freaky)+[a-zA-Z0-9~!@#$%^&*()-_+=]+" id="pass" class="form-control" required>
+                                <div class="invalid-feedback">The password must start with "Freaky"</div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">From which WebSite did you find us ?
+                                <input type="url" name="webSite" id="web" class="form-control">
+                                <div class="invalid-feedback">The WebSite must start with "http:"/"https:"</div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label bold">In case of an emergency :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">Your phone :
+                                <input type="tel" name="phone" pattern="[0-9]+" class="form-control emergency" required>
+                                <div class="invalid-feedback">The phone number must contain digits only</div>
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">Your email address :
+                                <input type="email" name="mail" placeholder="name@example.com" class="form-control emergency">
+                                <div class="invalid-feedback">The email is not valid</div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">How many times did you use our services :
+                                <input type="number" name="cofee" min="0" max="100" class="form-control">
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">How many times did you wish to use our services :
+                                <input type="range" name="range" min="1" max="100000" class="form-control">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">Tell us why should we choose to help you switch :
+                                <textarea name="address" rows="2" class="form-control" required></textarea>
+                                <div class="invalid-feedback">We won't switch you unless you tell us</div>
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">For how many days would you like to switch : 
+                                <select name="age" class="form-control" required></label>
+                                    <option value="18">18</option>
+                                    <option value="20">20</option>
+                                    <option value="22">22</option>
+                                    <option value="24">24</option>
+                                </select>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-check-label bold _width">In case the person you have chosen for the switch is occupied whoever you would like instead ?</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="checkbox" name="interests[]" value="Gal_Gadot" class="form-check-input all is-invalid">
+                            <label class="form-check-label">Gal Gadot</label>
+                            <div class="invalid-feedback">Don't you wanna swich with me ?</div>
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" name="interests[]" value="Ramos_Sergio" class="form-check-input all is-invalid">
+                            <label class="form-check-label">Ramos Sergio</label>
+                            <div class="invalid-feedback">I know you wanna be me</div>
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" name="interests[]" value="Lionel_Andrés_Messi_Cuccittini" class="form-check-input all is-invalid">
+                            <label class="form-check-label">Lionel Andrés Messi Cuccittini</label>
+                            <div class="invalid-feedback">or me ?</div>
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" name="interests[]" value="Mickey_Mouse" class="form-check-input all is-invalid">
+                            <label class="form-check-label">Mickey Mouse</label>
+                            <div class="invalid-feedback">You have to check someone</div>
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" name="interests[]" value="Chris_Hemsworth" class="form-check-input all is-invalid">
+                            <label class="form-check-label">Chris Hemsworth</label>
+                            <div class="invalid-feedback">Check me forget them</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+    
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-check-label bold _width">Also would you like to switch with a random pet ?</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="radio"    name="gender" value="yes" class="form-check-input" checked>
+                            <label class="form-check-label">Yes</label>
+                        </div>
+                        <div class="col">
+                            <input type="radio"    name="gender" value="no" class="form-check-input">
+                            <label class="form-check-label">No</label>
+                        </div>
+                        <div class="col">
+                            <input type="radio"    name="gender" value="next_time" class="form-check-input">
+                            <label class="form-check-label">Next Time</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="form-group sub">
+                    <input type="submit" class="btn btn-danger">
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
